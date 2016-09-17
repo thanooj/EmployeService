@@ -13,50 +13,48 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
-import com.jaxrs.cxf.rest.bo.Department;
 import com.jaxrs.cxf.rest.bo.Employee;
 import com.jaxrs.cxf.rest.bo.Greeting;
 import com.jaxrs.cxf.rest.bo.NewEmployee;
 
 @Path("/employee")
 public interface EmployeeService {
-	
+
 	@GET
 	@Path("/greeting/{name}")
 	@Produces(MediaType.APPLICATION_JSON)
 	public Greeting greeting(@PathParam("name") String name);
-	
+
 	@GET
-	@Produces({ MediaType.APPLICATION_JSON})
+	@Produces({ MediaType.APPLICATION_JSON })
 	@Path("/getEmployeeByID/{id}")
 	public Response getEmployeeByID(@PathParam("id") Integer id);
-	
-	
+
 	@GET
-	@Produces({ MediaType.APPLICATION_JSON})
-	@Path("/getDepartmentDetailsByEmployeeID/{id}")
-	public Response getDepartmentDetailsByEmployeeID(@PathParam("id") Integer id);
-	
+	@Produces({ MediaType.APPLICATION_JSON })
+	@Path("/getDepartmentDetailsByID/{id}")
+	public Response getDepartmentDetailsByID(@PathParam("id") Integer id);
+
 	@GET
-	@Produces({ MediaType.APPLICATION_JSON/*, MediaType.TEXT_PLAIN, MediaType.APPLICATION_XML */})
+	@Produces({ MediaType.APPLICATION_JSON })
 	@Path("/getEmployees")
 	public Response getEmployees();
-	
+
 	@POST
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.APPLICATION_JSON)
 	@Path("/createEmployee")
 	public Response createEmployee(final List<NewEmployee> newEmployee);
-	
+
 	@PUT
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.APPLICATION_JSON)
 	@Path("/updateEmployee")
 	public Response updateEmployee(final Employee employee);
-	
+
 	@DELETE
 	@Produces(MediaType.APPLICATION_JSON)
 	@Path("/deleteEmployeeByID/{id}")
 	public Response deleteEmployeeByID(@PathParam("id") Integer id);
-	
+
 }

@@ -125,7 +125,7 @@ public class EmployeeServiceImpl implements EmployeeService {
 	}
 
 	@Override
-	public Response getDepartmentDetailsByEmployeeID(Integer id) {
+	public Response getDepartmentDetailsByID(Integer id) {
 		Department department = null;
 		webClient.reset();
 		webClient.path("/department/getDepartmentByID/" + id);
