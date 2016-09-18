@@ -4,7 +4,7 @@
 	<groupId>com.jaxrs.cxf.employeService</groupId>
 	<artifactId>EmployeService</artifactId>
 	<version>1.0</version>
-	<packaging>war</packaging>
+	<packaging>pom</packaging>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -96,4 +96,9 @@
 			</plugin>
 		</plugins>
 	</build>
+	<modules>
+		<module>EmployeeService-bo</module>
+		<module>EmployeeService-dao</module>
+		<module>EmployeeService-web</module>
+	</modules>
 </project>
