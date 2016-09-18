@@ -5,12 +5,12 @@ Skype ID : thanooj.kalathuru
 
 Employe Service
 
-JAVA
-Maven
-JAXRS apache CXF
-Spring IOC and JDBC with C3P0
-apache Derby
-Jetty
+JAVA,
+Maven,
+JAXRS apache CXF,
+Spring IOC and JDBC with C3P0,
+apache Derby,
+Jetty.
 
 
 create table employee_department.department (id int primary key GENERATED ALWAYS AS IDENTITY (START WITH 1, INCREMENT BY 1), name varchar(30) not null, location varchar(30) not null);
