@@ -1,0 +1,61 @@
+Xiaomi Redmi Note 3 (H3A)
+
+TD-LTE 2600(band 38) / 2300(band 40) / 2500(band 41) / 1900(band 39) FD-LTE 2100(band 1) / 1800(band 3) / 2600(band 7) / 900(band 8) / 850(band 5)
+
+FDD-LTE B1 / B3 / B5 / B7 / B8 
+TD-LTE	B38 / B39 / B40 / B41
+
+LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 38(2600), 39(1900), 40(2300), 41(2500)
+LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 20(800), 28(700), 40(2300) - Special edition
+LTE band 1(2100), 3(1800), 5(850), 7(2600), 8(900), 38(2600), 39(1900), 40(2300), 41(2500) - India
+
+
+LTE band 1(2100), 3(1800), 5(850), 8(900), 40(2300) - XT1644 (India)
+4G LTE (Cat 6)
+UMTS / HSPA+
+GSM / EDGE
+4G LTE (B1, 3, 5, 8, 40)
+Band coverage varies by model, country, and carrier. 
+
+Full-HD Voice supports the entire bandwidth range from 20 Hz to 20 kHz.
+
+
+LTE bands between 1 & 22 are for paired spectrum, i.e. FDD, 
+LTE bands between 33 & 41 are for unpaired spectrum, i.e. TDD.
+
+
+ViLTE, an acronym for Video over LTE, is a conversational.
+ViLTE uses the same control plane protocol as Voice over LTE (VoLTE)
+
+
+TDD LTE BANDS & FREQUENCIES
+LTE BAND
+NUMBER	ALLOCATION (MHZ)	WIDTH OF BAND (MHZ)
+33		1900 - 1920				20
+34		2010 - 2025				15
+35		1850 - 1910				60
+36		1930 - 1990				60
+37		1910 - 1930				20
+38		2570 - 2620				50
+39		1880 - 1920				40
+40		2300 - 2400				100
+41		2496 - 2690				194
+42		3400 - 3600				200
+43		3600 - 3800				200
+44		703 - 803				100
+
+EE has fingers in the 800MHz, 1800MHz and 2.6GHz pies
+
+*#06#
+
+861375035513369
+77
+
+
+
+
+Knight 2 E471
+LTE 1800 / 2100 / 2300
+
+moto g4 plus
+LTE band 1(2100), 3(1800), 5(850), 8(900), 40(2300) - XT1644 (India)	
